@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iakrapovic\\source\\repos\\WordAPI\\WordAPI\\WordAPI.csproj": {}
+    "C:\\Users\\iakrapovic\\Projekt\\wordApp\\WordAPI\\WordAPI\\WordAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iakrapovic\\source\\repos\\WordAPI\\WordAPI\\WordAPI.csproj": {
+    "C:\\Users\\iakrapovic\\Projekt\\wordApp\\WordAPI\\WordAPI\\WordAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iakrapovic\\source\\repos\\WordAPI\\WordAPI\\WordAPI.csproj",
+        "projectUniqueName": "C:\\Users\\iakrapovic\\Projekt\\wordApp\\WordAPI\\WordAPI\\WordAPI.csproj",
         "projectName": "WordAPI",
-        "projectPath": "C:\\Users\\iakrapovic\\source\\repos\\WordAPI\\WordAPI\\WordAPI.csproj",
+        "projectPath": "C:\\Users\\iakrapovic\\Projekt\\wordApp\\WordAPI\\WordAPI\\WordAPI.csproj",
         "packagesPath": "C:\\Users\\iakrapovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iakrapovic\\source\\repos\\WordAPI\\WordAPI\\obj\\",
+        "outputPath": "C:\\Users\\iakrapovic\\Projekt\\wordApp\\WordAPI\\WordAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iakrapovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
